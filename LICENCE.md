@@ -1,2 +1,1 @@
-OreCraft
-LLicence
+# OreCraft Licence
