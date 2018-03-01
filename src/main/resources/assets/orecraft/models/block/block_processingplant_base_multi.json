@@ -1,0 +1,137 @@
+{
+    "parent": "block/block",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        }
+    },
+    "textures": {
+        "outer": "orecraft:blocks/multiblock/processingplant/processingplant_multi_outer",
+        "outer_two": "orecraft:blocks/multiblock/processingplant/processingplant_multi_outer",
+        "inner": "orecraft:blocks/multiblock/processingplant/processingplant_multi_inner",
+        "particle": "orecraft:blocks/multiblock/processingplant/processingplant_base_block"
+    },
+    "elements": [
+    {
+            "from": [-14, -14, -14],
+            "to": [30,30,30],
+            "faces": {
+                "north": {
+                    "uv": [0,0,16,16],
+                    "texture": "#inner"
+                },
+                "south": {
+                    "uv": [0,0,16,16],
+                    "texture": "#inner"
+                },
+                "east": {
+                    "uv": [0,0,16,16],
+                    "texture": "#inner"
+                },
+                "west": {
+                    "uv": [0,0,16,16],
+                    "texture": "#inner"
+                },
+                "up": {
+                    "uv": [0,0,16,16],
+                    "texture": "#inner"
+                },
+                "down": {
+                    "uv": [0,0,16,16],
+                    "texture": "#inner"
+                }
+            }
+        },
+        {
+            "from": [-16, -16, -16],
+            "to": [32,32,-14],
+            "faces": {
+                "north": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer"
+                },
+                "south": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer_two"
+                }
+            }
+        },
+        {
+            "from": [-16, -16, 30],
+            "to": [32,32,32],
+            "faces": {
+                "north": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer_two"
+                },
+                "south": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer"
+                }
+            }
+        },
+        {
+            "from": [-16, -16, -16],
+            "to": [-14,32,32],
+            "faces": {
+                "east": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer_two"
+                },
+                "west": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer"
+                }
+            }
+        },
+        {
+            "from": [30, -16, -16],
+            "to": [32,32,32],
+            "faces": {
+                "east": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer"
+                },
+                "west": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer_two"
+                }
+            }
+        },
+        {
+            "from": [-16, -16, -16],
+            "to": [32,-14,32],
+            "faces": {
+                "up": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer_two"
+                },
+                "down": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer"
+                }
+            }
+        },
+        {
+            "from": [-16, 30, -16],
+            "to": [32,32,32],
+            "faces": {
+                "up": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer"
+                },
+                "down": {
+                    "uv": [0,0,16,16],
+                    "texture": "#outer_two"
+                }
+            }
+        }
+    ]
+}

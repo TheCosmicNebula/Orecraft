@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "orecraft:blocks/machine/energized/combiner/combiner_top",
+        "front": "orecraft:blocks/machine/energized/combiner/combiner_front_off",
+        "side": "orecraft:blocks/machine/energized/combiner/combiner_side"
+    }
+}

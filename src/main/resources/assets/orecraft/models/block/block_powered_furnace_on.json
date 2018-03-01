@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "orecraft:blocks/machine/powered/furnace/furnace_top",
+        "front": "orecraft:blocks/machine/powered/furnace/furnace_front_on",
+        "side": "orecraft:blocks/machine/powered/furnace/furnace_side"
+    }
+}

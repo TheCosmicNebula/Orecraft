@@ -1,0 +1,78 @@
+{
+    "parent": "block/block",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        }
+    },
+    "textures": {
+        "one": "orecraft:blocks/storage/capacitor/powered/capacitor_four",
+        "particle": "orecraft:blocks/storage/capacitor/powered/capacitor_two"
+    },
+    "elements": [
+    {
+            "from": [0, 0, 0],
+            "to": [3, 16, 1],
+            "faces": {
+                "north": {
+                    "uv": [13,0,16,16],
+                    "texture": "#one"
+                },
+                "east": {
+                    "uv": [0,0,1,16],
+                    "texture": "#one"
+                }
+            }
+        },
+        {
+            "from": [13, 0, 0],
+            "to": [16, 16, 1],
+            "faces": {
+                "north": {
+                    "uv": [0,0,3,16],
+                    "texture": "#one"    
+                },
+                "west": {
+                    "uv": [15,0,16,16],
+                    "texture": "#one"
+                }
+            
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [16,3,1],
+            "faces": {
+                "north": {
+                    "uv": [0,13,16,16],
+                    "texture": "#one"
+                },
+                "up": {
+                    "uv": [0,15,16,16],
+                    "texture": "#one"
+                }
+            }
+        },
+        {
+            "from": [0,13,0],
+            "to": [16, 16, 1],
+            "faces": {
+                "north": {
+                    "uv": [0,0, 16, 3],
+                    "texture": "#one"
+                },
+                "down": {
+                    "uv": [0,0,16,1],
+                    "texture": "#one"
+                }
+            }
+        }
+    ]
+}

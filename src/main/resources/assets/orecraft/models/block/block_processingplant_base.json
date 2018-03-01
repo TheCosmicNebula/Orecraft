@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "orecraft:blocks/multiblock/processingplant/processingplant_base_block"
+    }
+}

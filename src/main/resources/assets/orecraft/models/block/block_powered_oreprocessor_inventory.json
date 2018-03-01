@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "orecraft:blocks/machine/powered/oreprocessor/oreprocessor_top",
+        "front": "orecraft:blocks/machine/powered/oreprocessor/oreprocessor_front_off",
+        "side": "orecraft:blocks/machine/powered/oreprocessor/oreprocessor_side_inventory"
+    }
+}
