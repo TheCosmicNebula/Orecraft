@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "orecraft:block_combiner_center" },
+        "inventory": { "model": "orecraft:block_combiner_center" }
+    }
+}

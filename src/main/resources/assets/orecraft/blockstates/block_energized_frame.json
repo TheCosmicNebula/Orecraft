@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "normal": { "model": "orecraft:block_energized_frame" },
+        "inventory": {
+            "model": "orecraft:block_energized_frame" 
+        }
+    }
+}

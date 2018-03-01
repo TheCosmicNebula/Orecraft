@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "orecraft:blocks/world/block/block_amythest",
+        "one": "orecraft:blocks/fluid/energized_redstone/energized_redstone_still",
+        "one1": "orecraft:blocks/fluid/energized_redstone/energized_redstone_flow",
+        "two": "orecraft:blocks/fluid/coolant/coolant_still",
+        "two2": "orecraft:blocks/fluid/coolant/coolant_flow",
+        "three": "orecraft:blocks/fluid/glowstoneinfused_magma/glowstoneinfused_magma_still",
+        "three3": "orecraft:blocks/fluid/glowstoneinfused_magma/glowstoneinfused_magma_flow"
+    }
+}

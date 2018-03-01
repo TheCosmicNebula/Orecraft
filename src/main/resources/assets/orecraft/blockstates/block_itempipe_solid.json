@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "inventory": {
+            "model": "orecraft:block_itempipe_solid_inventory",
+            "transform": "forge:default-block"
+        }
+    },
+    "multipart": [
+        {   "when": { "north": "true" },
+            "apply": { "model": "orecraft:block_itempipe_solid"}
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "orecraft:block_itempipe_solid"}
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "orecraft:block_itempipe_solid"}
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "orecraft:block_itempipe_solid"}
+        },
+        {   "when": { "up": "true" },
+            "apply": { "model": "orecraft:block_itempipe_solid"}
+        },
+        {   "when": { "down": "true" },
+            "apply": { "model": "orecraft:block_itempipe_solid"}
+        }
+    ]
+}

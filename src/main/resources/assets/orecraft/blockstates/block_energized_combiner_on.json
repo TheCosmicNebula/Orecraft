@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "facing=north": { "model": "orecraft:block_energized_combiner_on" },
+        "facing=south": { "model": "orecraft:block_energized_combiner_on", "y": 180 },
+        "facing=west":  { "model": "orecraft:block_energized_combiner_on", "y": 270 },
+        "facing=east":  { "model": "orecraft:block_energized_combiner_on", "y": 90 },
+        "inventory": {
+            "model": "orecraft:block_energized_combiner_on"
+        }
+    }
+}

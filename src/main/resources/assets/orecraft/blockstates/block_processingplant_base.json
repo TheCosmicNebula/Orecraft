@@ -1,0 +1,17 @@
+{
+    "variants": {
+        "inventory": {
+            "model": "orecraft:block_processingplant_base"
+        }
+        
+    },
+    "multipart": [
+        {   "when": {"is_multi": "true"},
+            "apply": {"model": "orecraft:block_processingplant_base_multi"}
+        },
+        {   "when": {"is_multi": "false"},
+            "apply": {"model": "orecraft:block_processingplant_base"}
+        }
+    ]
+    
+}

@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "orecraft:block_ore_adamantite" }
+    }
+}

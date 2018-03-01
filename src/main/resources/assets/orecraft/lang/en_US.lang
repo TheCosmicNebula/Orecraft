@@ -1,0 +1,226 @@
+#en_US
+
+info.orecraft.hold=Hold
+info.orecraft.shift=Shift
+info.orecraft.forDetails=for more details.
+
+info.orecraft.pickaxe=Pickaxe that uses energy
+info.orecraft.pickaxe.powerinfo=Power Left
+
+itemGroup.tab_orecraft=OreCraft
+itemGroup.tab_orecraft_materials=OreCraft Materials
+itemGroup.tab_orecraft_tools=OreCraft Tools
+itemGroup.tab_orecraft_energy=OreCraft Energy
+
+item.tool_machinewrench.name=Machine Wrench
+item.tool_debug.name=Debug Tool
+item.tool_machinehammer.name=Machine Hammer
+
+item.ingot_copper.name=Copper Ingot
+item.ingot_tin.name=Tin Ingot
+item.ingot_silver.name=Silver Ingot
+item.ingot_eutine.name=Eutine Ingot
+item.ingot_mithril.name=Mithril Ingot
+item.ingot_adamantite.name=Adamantite Ingot
+item.ingot_rune.name=Rune Ingot
+item.ingot_fractum.name=Fractum Ingot
+item.ingot_fractum_raw.name=Raw Fratum Ingot
+item.ingot_fractum_unrefined.name=Unrefined Fractum
+item.ingot_silicon.name=Silicon Ingot
+item.ingot_steel.name=Steel Ingot
+item.ingot_steel_unrefined.name=Unrefined Steel Ingot
+item.ingot_bronze.name=Bronze Ingot
+item.ingot_brass.name=Brass Ingot
+item.ingot_lapis.name=Lapis Ingot
+
+item.gem_onyx.name=Onyx
+item.gem_satsum.name=Satsum
+item.gem_azurite.name=Azurite
+item.gem_ruby.name=Ruby
+item.gem_amythest.name=Amythest
+item.gem_yellowtopaz.name=Yellow Topaz
+item.gem_fireopal.name=Fire Opal
+item.gem_turquoise.name=Turquoise
+item.gem_blackdiamond.name=Black Diamond
+
+item.gem_red.name=Red Gem
+item.gem_godone.name=Green God Gem
+item.gem_godtwo.name=Yellow God Gem
+item.gem_godthree.name=Orange God Gem 
+
+item.component_circuit_one_raw.name=Raw Basic Circuit
+item.component_circuit_one.name=Basic Circuit
+item.component_circuit_two_raw.name=Raw Advanced Circuit
+item.component_circuit_two.name=Advanced Circuit
+item.component_circuit_three_raw.name=Raw Ender Circuit
+item.component_circuit_three.name=Ender Circuit
+
+item.component_silicon.name=Silicon
+item.component_silicon_refined.name=Refined Silicon
+item.component_silicon_wafer.name=Silcon Wafer
+item.component_silicon_wafer_basic.name=Basic Silcon Wafer
+item.component_silicon_wafer_ender.name=Ender Silcon Wafer
+
+item.battery_single.name=Single Battery
+item.battery_double.name=Double Battery
+item.battery_basic.name=Basic Capacitor
+item.battery_advanced.name=Advanced Capacitor
+item.battery_ender.name=Ender Capacitor
+
+item.upgrade_base.name=Upgrade Base
+item.upgrade_speed.name=Speed Upgrade
+item.upgrade_capacity.name=Capacity Upgrade
+item.upgrade_efficiency.name=Efficiency Upgrade
+item.upgrade_charge.name=Charge Upgrade
+item.upgrade_generator.name=Generation Upgrade
+item.upgrade_solar.name=Solar Upgrade
+item.upgrade_fluid_speed.name=Fluid Speed Upgrade
+item.upgrade_fluid_capacity.name=Fluid Capacity Upgrade
+item.upgrade_fluid_efficiency.name=Fluid Efficiency Upgrade
+
+item.generic_rubber.name=Rubber
+item.generic_rubber_insulation.name=Rubber Insulation
+item.generic_rod_steel.name=Steel Rod
+item.generic_rod_mithril.name=Mithril Rod
+item.generic_rod_rune.name=Rune Rod
+item.generic_rod_tool.name=Tool Rod
+
+item.dustc_copper.name=Copper Dust
+item.dust_tin.name=Tin Dust
+item.dust_silver.name=Silver Dust
+item.dust_eutine.name=Eutine Dust
+item.dust_mithril.name=Mithril Dust
+item.dust_adamantite.name=Adamantite Dust
+item.dust_rune.name=Rune Dust
+item.dust_diamond.name=Diamond Dust
+item.dust_gold.name=Gold Dust
+item.dust_iron.name=Iron Dust
+
+item.dustCleanGold.name=Clean Gold Dust
+item.dustCleanIron.name=Clean Iron Dust
+
+item.carbonStrip.name=Carbon Strip
+item.carbonStrand.name=Carbon Strand
+
+item.upgradeSpeed.name=Machine Upgrade - Speed
+item.upgradeCapacity.name=Machine Upgrade - Capactiy
+item.upgradeTransformer.name=Machine Upgrade - Transformer
+
+item.upgradeCoal.name=CHANGE AL
+
+item.rodSteel.name=Steel Rod
+item.rodMithril.name=Mithril Rod
+item.rodRune.name=Rune Rod
+
+item.copperSword.name=Copper Sword
+item.copperPickaxe.name=Copper Pickaxe
+item.copperAxe.name=Copper Axe
+item.copperSpade.name=Copper Shovel
+
+item.silverSword.name=Silver Sword
+item.silverPickaxe.name=Silver Pickaxe
+item.silverAxe.name=Silver Axe
+item.silverSpade.name=Silver Shovel
+
+item.eutineSword.name=Eutine Sword
+item.eutinePickaxe.name=Eutine Pickaxe
+item.eutineAxe.name=Eutine Axe
+item.eutineSpade.name=Eutine Shovel
+
+item.mithrilSword.name=Mithril Sword
+item.mithrilPickaxe.name=Mithril Pickaxe
+item.mithrilAxe.name=Mithril Axe
+item.mithrilSpade.name=Mithril Shovel
+
+item.adamantiteSword.name=Adamantite Sword
+item.adamantitePickaxe.name=Adamantite Pickaxe
+item.adamantiteAxe.name=Adamantite Axe
+item.adamantiteSpade.name=Adamantite Shovel
+
+item.runeSword.name=Rune Sword
+item.runePickaxe.name=Rune Pickaxe
+item.runeAxe.name=Rune Axe
+item.runeSpade.name=Rune Shovel
+
+item.doorClearItem.name=Clear Door
+item.doorReinforcedItem.name=Reinforced Door
+
+item.copperHelmet.name=Copper Helmet
+item.copperChestPlate.name=Copper Chestplate
+item.copperLeggings.name=Copper Leggings
+item.copperBoots.name=Copper Boots
+
+item.god1Helmet.name=God Helmet Teir 1
+item.god1ChestPlate.name=God Chestplate Teir 1
+item.god1Leggings.name=God Leggings Teir 1
+item.god1Boots.name=God Boots Teir 1
+
+item.god2Helmet.name=God Helmet Teir 2
+item.god2ChestPlate.name=God Chestplate Teir 2
+item.god2Leggings.name=God Leggings Teir 2
+item.god2Boots.name=God Boots Teir 2
+
+item.god3Helmet.name=God Helmet Teir 3
+item.god3ChestPlate.name=God Chestplate Teir 3
+item.god3Leggings.name=God Leggings Teir 3
+item.god3Boots.name=God Boots Teir 3
+
+item.null.name=FIX ITEM
+
+tile.block_ore_copper.name=Copper Ore
+tile.block_ore_tin.name=Tin Ore
+tile.block_ore_silver.name=Silver Ore
+tile.block_ore_eutine.name=Eutine Ore
+tile.block_ore_mithril.name=Mithril Ore
+tile.block_ore_adamantite.name=Adamantite Ore
+tile.block_ore_rune.name=Rune Ore
+tile.block_ore_fractum.name=Fractum Ore
+
+tile.block_ore_silicon.name=Silicon Ore
+
+tile.block_ore_onyx.name=Onyx Ore
+tile.block_ore_satsum.name=Satsum Ore
+tile.block_ore_azurite.name=Azurite Ore
+tile.block_ore_ruby.name=Ruby Ore
+tile.block_ore_amythest.name=Amythest Ore
+
+tile.block_ore_yellowtopaz.name=Yellow Topaz Ore
+tile.block_ore_fireopal.name=Fire Opal Ore
+tile.block_ore_turquoise.name=Turquoise Ore
+tile.block_ore_blackdiamond.name=Black Diamond Ore
+
+tile.block_copper.name=Block of Copper
+tile.block_tin.name=Block of Tin
+tile.block_silver.name=Block of Silver
+tile.block_eutine.name=Block of Eutine
+tile.block_mithril.name=Block of Mithril
+tile.block_adamantite.name=Block of Adamantite
+tile.block_rune.name=Block of Rune
+tile.block_fractum.name=Block of Fractum
+
+tile.block_silicon.name=Block of Silicon
+
+tile.block_onyx.name=Block of Onyx
+tile.block_satsum.name=Block of Satsum
+tile.block_azurite.name=Block of Azurite
+tile.block_ruby.name=Block of Ruby
+tile.block_amythest.name=Block of Amythest
+
+tile.block_yellowtopaz.name=Block of Yellow Topaz
+tile.block_fireopal.name=Block of Fire Opal
+tile.block_turquoise.name=Block of Turquoise
+tile.block_blackdiamond.name=Block of Black Diamond
+
+tile.block_godone.name=God Block Teir 1
+tile.block_godtwo.name=God Block Teir 2
+tile.block_godthree.name=God Block Teir 3
+
+tile.block_steel.name=Block of Steel
+tile.block_bronze.name=Block of Bronze
+tile.block_brass.name=Block of Brass
+
+tile.null.name=FIX BLOCK
+
+fluid.coolant=Coolant
+fluid.energized_redstone=Energized Redstone
+fluid.glowstoneinfused_magma=Glowstone Infused Magma

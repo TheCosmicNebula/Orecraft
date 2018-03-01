@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "inventory": {
+            "model": "orecraft:block_fluidpipe_clear_inventory",
+            "transform": "forge:default-block"
+        }
+    },
+    "multipart": [
+        {   "when": { "north": "true" },
+            "apply": { "model": "orecraft:block_fluidpipe_clear"}
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "orecraft:block_fluidpipe_clear"}
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "orecraft:block_fluidpipe_clear"}
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "orecraft:block_fluidpipe_clear"}
+        },
+        {   "when": { "up": "true" },
+            "apply": { "model": "orecraft:block_fluidpipe_clear"}
+        },
+        {   "when": { "down": "true" },
+            "apply": { "model": "orecraft:block_fluidpipe_clear"}
+        }
+    ]
+}

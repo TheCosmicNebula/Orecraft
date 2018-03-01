@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "inventory": {
+            "model": "orecraft:block_energized_energypipe_inventory",
+            "transform": "forge:default-block"
+        }
+    },
+    "multipart": [
+        {   "when": { "north": "true" },
+            "apply": { "model": "orecraft:block_energized_energypipe"}
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "orecraft:block_energized_energypipe"}
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "orecraft:block_energized_energypipe"}
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "orecraft:block_energized_energypipe"}
+        },
+        {   "when": { "up": "true" },
+            "apply": { "model": "orecraft:block_energized_energypipe"}
+        },
+        {   "when": { "down": "true" },
+            "apply": { "model": "orecraft:block_energized_energypipe"}
+        }
+    ]
+}

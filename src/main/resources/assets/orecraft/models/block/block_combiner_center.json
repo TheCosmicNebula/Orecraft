@@ -1,0 +1,116 @@
+{
+    "parent": "block/block",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        }
+    },
+    "textures": {
+        "particle": "orecraft:blocks/machine/combiner/center/center_one",
+        "top": "orecraft:blocks/machine/combiner/center/center_one",
+        "toptwo": "orecraft:blocks/machine/combiner/center/center_three",
+        "side": "orecraft:blocks/machine/combiner/center/center_two",
+        "sidetwo": "orecraft:blocks/machine/combiner/center/center_four",
+        "extra": "orecraft:blocks/machine/combiner/center/center_extra",
+        "extraone": "orecraft:blocks/machine/combiner/center/center_extra_one"
+    },
+    "elements": [
+        {
+            "from": [1, 6, 1],
+            "to": [15,10,15],
+            "faces": {
+                "up": {
+                    "uv": [1,1,15,15],
+                    "texture": "#top"
+                },
+                "down": {
+                    "uv": [1,1,15,15],
+                    "texture": "#top"
+                },
+                "north": {
+                    "uv": [1,1,15,5],
+                    "texture": "#sidetwo"
+                },
+                "south": {
+                    "uv": [1,1,15,5],
+                    "texture": "#sidetwo"
+                },
+                "east": {
+                    "uv": [1,1,15,5],
+                    "texture": "#sidetwo"
+                },
+                "west": {
+                    "uv": [1,1,15,5],
+                    "texture": "#sidetwo"
+                }
+            }
+        },
+        {
+            "from": [0, 2, 0],
+            "to": [16,6,16],
+            "faces": {
+                "up": {
+                    "uv": [0,0,16,16],
+                    "texture": "#toptwo"
+                },
+                "down": {
+                    "uv": [0,0,16,16],
+                    "texture": "#toptwo"
+                },
+                "north": {
+                    "uv": [0,10,16,14],
+                    "texture": "#sidetwo"
+                },
+                "south": {
+                    "uv": [0,10,16,14],
+                    "texture": "#sidetwo"
+                },
+                "east": {
+                    "uv": [0,10,16,14],
+                    "texture": "#sidetwo"
+                },
+                "west": {
+                    "uv": [0,10,16,14],
+                    "texture": "#sidetwo"
+                }
+            }
+        },
+        {
+            "from": [-1, 0, -1],
+            "to": [17,2,17],
+            "faces": {
+                "up": {
+                    "uv": [0,0,16,16],
+                    "texture": "#extra"
+                },
+                "down": {
+                    "uv": [0,0,16,16],
+                    "texture": "#extra"
+                },
+                "north": {
+                    "uv": [0,0,16,1.8],
+                    "texture": "#extraone"
+                },
+                "south": {
+                    "uv": [0,0,16,1.8],
+                    "texture": "#extraone"
+                },
+                "east": {
+                    "uv": [0,0,16,1.8],
+                    "texture": "#extraone"
+                },
+                "west": {
+                    "uv": [0,0,16,1.8],
+                    "texture": "#extraone"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "parent": "block/block",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        }
+    },
+    "textures": {
+        "particle": "orecraft:blocks/machine/combiner/pedestal/pedestal_one",
+        "top": "orecraft:blocks/machine/combiner/pedestal/pedestal_one",
+        "toptwo": "orecraft:blocks/machine/combiner/pedestal/pedestal_three",
+        "side": "orecraft:blocks/machine/combiner/pedestal/pedestal_two"
+    },
+    "elements": [
+        {
+            "from": [1, 1, 1],
+            "to": [15,5,15],
+            "faces": {
+                "up": {
+                    "uv": [1,1,15,15],
+                    "texture": "#top"
+                },
+                "down": {
+                    "uv": [1,1,15,15],
+                    "texture": "#top"
+                },
+                "north": {
+                    "uv": [1,1,15,4],
+                    "texture": "#side"
+                },
+                "south": {
+                    "uv": [1,1,15,4],
+                    "texture": "#side"
+                },
+                "east": {
+                    "uv": [1,1,15,4],
+                    "texture": "#side"
+                },
+                "west": {
+                    "uv": [1,1,15,4],
+                    "texture": "#side"
+                }
+            }
+        },
+        {
+            "from": [0, 0, 0],
+            "to": [16,1,16],
+            "faces": {
+                "up": {
+                    "uv": [0,0,16,16],
+                    "texture": "#toptwo"
+                },
+                "down": {
+                    "uv": [0,0,16,16],
+                    "texture": "#toptwo"
+                },
+                "north": {
+                    "uv": [0,5,16,6],
+                    "texture": "#side"
+                },
+                "south": {
+                    "uv": [0,5,16,6],
+                    "texture": "#side"
+                },
+                "east": {
+                    "uv": [0,5,16,6],
+                    "texture": "#side"
+                },
+                "west": {
+                    "uv": [0,5,16,6],
+                    "texture": "#side"
+                }
+            }
+        }
+    ]
+}

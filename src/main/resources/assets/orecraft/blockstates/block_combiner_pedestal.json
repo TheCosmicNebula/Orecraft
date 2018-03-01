@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "orecraft:block_combiner_pedestal" },
+        "inventory": { "model": "orecraft:block_combiner_pedestal" }
+    }
+}

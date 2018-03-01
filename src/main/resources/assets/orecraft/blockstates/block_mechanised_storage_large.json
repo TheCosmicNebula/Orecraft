@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "inventory": {
+            "model": "orecraft:block_mechanised_storage_large"
+        },
+        "normal": {
+            "model": "orecraft:block_mechanised_storage_large"
+        }
+    }
+}
