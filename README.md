@@ -1,6 +1,6 @@
 OreCraft
 =============
-A mod adding ores, machines, tools and much more! Currently in version 3.0.8b, using Forge for Minecraft 1.11.2.
+A mod adding ores, machines, tools and much more! Currently in version 3.2.6b, using Forge for Minecraft 1.11.2.
 
 ## Licence
 This repo does not have a licence. This means that by default, it is All Rights Reserved. However, due to having complete control over what rights that includes, here is a list of what you can & cannot do.
