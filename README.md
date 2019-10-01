@@ -20,4 +20,4 @@ This repo does not have a licence. This means that by default, it is All Rights 
 ## Mod Page
 [Curse-Forge](https://minecraft.curseforge.com/projects/orecraftii)
 
-2019 @ TheRealZeher | TRZ | All Rights Reserved.
+2012-19 @ TheRealZeher | TRZ | All Rights Reserved.
