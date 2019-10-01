@@ -1,8 +1,0 @@
-{
-    "parent": "block/orientable",
-    "textures": {
-        "top": "orecraft:blocks/machine/powered/fluidcrafter/fluidcrafter_top",
-        "front": "orecraft:blocks/machine/powered/fluidcrafter/fluidcrafter_front_on",
-        "side": "orecraft:blocks/machine/powered/fluidcrafter/fluidcrafter_side_inventory"
-    }
-}

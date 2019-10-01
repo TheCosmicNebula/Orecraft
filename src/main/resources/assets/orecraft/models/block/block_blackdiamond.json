@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "orecraft:blocks/world/block/block_blackdiamond"
-    }
-}

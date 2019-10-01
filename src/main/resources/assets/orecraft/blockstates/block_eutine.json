@@ -1,5 +1,13 @@
 {
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "orecraft:blocks/world/block/block_eutine"
+        }
+    },
+    
     "variants": {
-        "normal": { "model": "orecraft:block_eutine" }
+        "inventory": { "model": "zeherlib:modblock" },
+        "normal": { "model" : "zeherlib:modblock" }
     }
 }

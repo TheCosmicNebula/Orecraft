@@ -13,8 +13,8 @@
         }
     },
     "textures": {
-        "one":      "orecraft:blocks/transfer/energized/energypipe_inventory",
-        "particle": "orecraft:blocks/transfer/energized/energypipe_inventory"
+        "one":      "orecraft:blocks/transfer/energypipe/energized_inventory",
+        "particle": "orecraft:blocks/transfer/energypipe/energized_inventory"
     },
     "elements": [
         {

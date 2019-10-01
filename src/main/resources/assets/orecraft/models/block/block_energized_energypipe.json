@@ -13,6 +13,6 @@
         }
     },
     "textures": {
-        "particle": "orecraft:blocks/transfer/energized/energypipe_inventory"
+        "particle": "orecraft:blocks/transfer/energypipe/creative_inventory"
     }
 }

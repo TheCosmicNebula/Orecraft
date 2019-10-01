@@ -1,5 +1,13 @@
 {
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "orecraft:blocks/world/block/block_fractum"
+        }
+    },
+    
     "variants": {
-        "normal": { "model": "orecraft:block_fractum" }
+        "inventory": { "model": "zeherlib:modblock" },
+        "normal": { "model" : "zeherlib:modblock" }
     }
 }

@@ -1,5 +1,13 @@
 {
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "orecraft:blocks/world/block/block_onyx"
+        }
+    },
+    
     "variants": {
-        "normal": { "model": "orecraft:block_onyx" }
+        "inventory": { "model": "zeherlib:modblock" },
+        "normal": { "model" : "zeherlib:modblock" }
     }
 }

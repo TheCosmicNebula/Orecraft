@@ -1,8 +1,0 @@
-{
-    "parent": "block/orientable",
-    "textures": {
-        "top": "orecraft:blocks/production/generator/heatedfluid/heatedfluid_top",
-        "front": "orecraft:blocks/production/generator/heatedfluid/heatedfluid_front_off",
-        "side": "orecraft:blocks/production/generator/heatedfluid/heatedfluid_side_inventory"
-    }
-}

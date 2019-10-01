@@ -1,8 +1,0 @@
-{
-    "parent": "block/orientable",
-    "textures": {
-        "top": "orecraft:blocks/machine/powered/grinder/grinder_top_off",
-        "front": "orecraft:blocks/machine/powered/grinder/grinder_front_on",
-        "side": "orecraft:blocks/machine/powered/grinder/grinder_side"
-    }
-}

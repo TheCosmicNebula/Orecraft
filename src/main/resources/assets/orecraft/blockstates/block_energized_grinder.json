@@ -1,11 +1,12 @@
 {
     "variants": {
-        "facing=north": { "model": "orecraft:block_energized_grinder" },
-        "facing=south": { "model": "orecraft:block_energized_grinder", "y": 180 },
-        "facing=west":  { "model": "orecraft:block_energized_grinder", "y": 270 },
-        "facing=east":  { "model": "orecraft:block_energized_grinder", "y": 90 },
+        "facing=north": { "model": "orecraft:block_energized_grinder_model" },
+        "facing=south": { "model": "orecraft:block_energized_grinder_model", "y": 180 },
+        "facing=west":  { "model": "orecraft:block_energized_grinder_model", "y": 270 },
+        "facing=east":  { "model": "orecraft:block_energized_grinder_model", "y": 90 },
+        
         "inventory": {
-            "model": "orecraft:block_energized_grinder"
+            "model": "orecraft:block_energized_grinder_model"
         }
     }
 }

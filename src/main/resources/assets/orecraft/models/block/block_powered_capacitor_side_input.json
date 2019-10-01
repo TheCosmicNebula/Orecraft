@@ -13,8 +13,10 @@
         }
     },
     "textures": {
-        "one": "orecraft:blocks/storage/capacitor/powered/capacitor_five",
-        "particle": "orecraft:blocks/storage/capacitor/powered/capacitor_two"
+        "particle": "orecraft:blocks/storage/capacitor/powered/capacitor_face_input",
+        "face_input": "orecraft:blocks/storage/capacitor/powered/capacitor_face_input",
+        "face_input_corner": "orecraft:blocks/storage/capacitor/powered/capacitor_face_input_corner",
+        "face": "orecraft:blocks/storage/capacitor/powered/capacitor_face"
     },
     "elements": [
         {
@@ -23,11 +25,15 @@
             "faces": {
                 "north": {
                     "uv": [13,0,16,16],
-                    "texture": "#one"
+                    "texture": "#face_input"
+                },
+                "south": {
+                    "uv": [0,0,3,16],
+                    "texture": "#face"
                 },
                 "east": {
                     "uv": [0,0,1,16],
-                    "texture": "#one"
+                    "texture": "#face_input"
                 }
             }
         },
@@ -37,11 +43,15 @@
             "faces": {
                 "north": {
                     "uv": [0,0,3,16],
-                    "texture": "#one"    
+                    "texture": "#face_input"    
+                },
+                "south": {
+                    "uv": [13,0,16,16],
+                    "texture": "#face"
                 },
                 "west": {
                     "uv": [15,0,16,16],
-                    "texture": "#one"
+                    "texture": "#face_input"
                 }
             
             }
@@ -52,11 +62,15 @@
             "faces": {
                 "north": {
                     "uv": [0,13,16,16],
-                    "texture": "#one"
+                    "texture": "#face_input_corner"
+                },
+                "south": {
+                    "uv": [0,13,16,16],
+                    "texture": "#face"
                 },
                 "up": {
                     "uv": [0,15,16,16],
-                    "texture": "#one"
+                    "texture": "#face_input"
                 }
             }
         },
@@ -66,11 +80,15 @@
             "faces": {
                 "north": {
                     "uv": [0,0, 16, 3],
-                    "texture": "#one"
+                    "texture": "#face_input_corner"
+                },
+                "south": {
+                    "uv": [0,0,16,3],
+                    "texture": "#face"
                 },
                 "down": {
                     "uv": [0,0,16,1],
-                    "texture": "#one"
+                    "texture": "#face_input"
                 }
             }
         }

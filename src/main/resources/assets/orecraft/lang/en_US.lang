@@ -1,21 +1,54 @@
-#en_US
+#en_us
 
-info.orecraft.hold=Hold
-info.orecraft.shift=Shift
-info.orecraft.forDetails=for more details.
+#JEI Integration
+jei.recipe.grinder=Grinding
+jei.recipe.compressor=Compressing
+jei.recipe.furnace=Smelting
+jei.recipe.extractor=Extracting
 
-info.orecraft.pickaxe=Pickaxe that uses energy
-info.orecraft.pickaxe.powerinfo=Power Left
+jei.experience=XP
 
-itemGroup.tab_orecraft=OreCraft
-itemGroup.tab_orecraft_materials=OreCraft Materials
-itemGroup.tab_orecraft_tools=OreCraft Tools
-itemGroup.tab_orecraft_energy=OreCraft Energy
+#GUI_NAME
+gui.production.powered.solidfuel.name=Solid Fuel Gen
+gui.production.powered.solarpanel.name=Solar Panel
 
+gui.fluidproduction.powered.heatedfluid.name=Heated Fluid Generator
+gui.fluidproduction.powered.peltier.name=Peltier Generator
+
+gui.machine.powered.furnace.name=Furnace
+gui.machine.powered.grinder.name=Grinder
+gui.machine.powered.compressor.name=Compressor
+gui.machine.powered.extractor.name=Extractor
+
+gui.machine.energized.furnace.name=Furnace
+gui.machine.energized.grinder.name=Grinder
+gui.machine.energized.compressor.name=Compressor
+gui.machine.energized.extractor.name=Extractor
+
+gui.machine.powered.charger.name=Charger
+
+gui.fluidmachine.powered.oreprocessor.name=Ore Processor
+gui.fluidmachine.powered.fluidcrafter.name=Fluid Crafter
+
+gui.storage.powered.capacitor.name=Powered Capacitor
+gui.storage.energized.capacitor.name=Energized Capacitor
+
+gui.storage.mechanisedstoragesmall.name=Small Mechanised Storage
+gui.storage.mechanisedstoragelarge.name=Large Mechanised Storage
+
+#Creative_tabs
+itemGroup.tab_blocks=Orecraft Blocks
+itemGroup.tab_materials=Orecraft Materials
+itemGroup.tab_tools=Orecraft Tools
+itemGroup.tab_energy=Orecraft Energy
+itemGroup.tab_decor=Orecraft Decoration
+
+#Tools
 item.tool_machinewrench.name=Machine Wrench
 item.tool_debug.name=Debug Tool
 item.tool_machinehammer.name=Machine Hammer
 
+#Ingots
 item.ingot_copper.name=Copper Ingot
 item.ingot_tin.name=Tin Ingot
 item.ingot_silver.name=Silver Ingot
@@ -33,6 +66,7 @@ item.ingot_bronze.name=Bronze Ingot
 item.ingot_brass.name=Brass Ingot
 item.ingot_lapis.name=Lapis Ingot
 
+#Gems
 item.gem_onyx.name=Onyx
 item.gem_satsum.name=Satsum
 item.gem_azurite.name=Azurite
@@ -48,6 +82,7 @@ item.gem_godone.name=Green God Gem
 item.gem_godtwo.name=Yellow God Gem
 item.gem_godthree.name=Orange God Gem 
 
+#Components_circuit
 item.component_circuit_one_raw.name=Raw Basic Circuit
 item.component_circuit_one.name=Basic Circuit
 item.component_circuit_two_raw.name=Raw Advanced Circuit
@@ -55,18 +90,20 @@ item.component_circuit_two.name=Advanced Circuit
 item.component_circuit_three_raw.name=Raw Ender Circuit
 item.component_circuit_three.name=Ender Circuit
 
+#Components_wafer
 item.component_silicon.name=Silicon
 item.component_silicon_refined.name=Refined Silicon
-item.component_silicon_wafer.name=Silcon Wafer
-item.component_silicon_wafer_basic.name=Basic Silcon Wafer
-item.component_silicon_wafer_ender.name=Ender Silcon Wafer
+item.component_silicon_wafer.name=Wafer
+item.component_silicon_wafer_basic.name=Basic Wafer
+item.component_silicon_wafer_ender.name=Ender Wafer
 
-item.battery_single.name=Single Battery
-item.battery_double.name=Double Battery
-item.battery_basic.name=Basic Capacitor
-item.battery_advanced.name=Advanced Capacitor
-item.battery_ender.name=Ender Capacitor
+#Batteries
+item.battery_small.name=Small Battery
+item.battery_large.name=Large Battery
+item.battery_powered.name=Powered Capacitor
+item.battery_energized.name=Energized Capacitor
 
+#Upgrades
 item.upgrade_base.name=Upgrade Base
 item.upgrade_speed.name=Speed Upgrade
 item.upgrade_capacity.name=Capacity Upgrade
@@ -77,7 +114,9 @@ item.upgrade_solar.name=Solar Upgrade
 item.upgrade_fluid_speed.name=Fluid Speed Upgrade
 item.upgrade_fluid_capacity.name=Fluid Capacity Upgrade
 item.upgrade_fluid_efficiency.name=Fluid Efficiency Upgrade
+item.upgrade_transformer.name=Transformer Upgrade
 
+#Generic
 item.generic_rubber.name=Rubber
 item.generic_rubber_insulation.name=Rubber Insulation
 item.generic_rod_steel.name=Steel Rod
@@ -85,7 +124,7 @@ item.generic_rod_mithril.name=Mithril Rod
 item.generic_rod_rune.name=Rune Rod
 item.generic_rod_tool.name=Tool Rod
 
-item.dustc_copper.name=Copper Dust
+item.dust_copper.name=Copper Dust
 item.dust_tin.name=Tin Dust
 item.dust_silver.name=Silver Dust
 item.dust_eutine.name=Eutine Dust
@@ -96,77 +135,53 @@ item.dust_diamond.name=Diamond Dust
 item.dust_gold.name=Gold Dust
 item.dust_iron.name=Iron Dust
 
-item.dustCleanGold.name=Clean Gold Dust
-item.dustCleanIron.name=Clean Iron Dust
+item.dust_bronze.name=Bronze Dust
+item.dust_steel.name=Steel Dust
+item.dust_brass.name=Brass Dust
+item.dust_carbon.name=Carbon Dust
 
-item.carbonStrip.name=Carbon Strip
-item.carbonStrand.name=Carbon Strand
+item.dust_iron_clean.name=Cleaned Iron Dust
+item.dust_gold_clean.name=Cleaned Gold Dust
 
-item.upgradeSpeed.name=Machine Upgrade - Speed
-item.upgradeCapacity.name=Machine Upgrade - Capactiy
-item.upgradeTransformer.name=Machine Upgrade - Transformer
+item.dust_basic.name=Basic Dust
+item.dust_ender.name=Ender Dust
 
-item.upgradeCoal.name=CHANGE AL
+#Plates
+item.plate_copper.name=Copper Plate
+item.plate_tin.name=Tin Plate
+item.plate_silver.name=Silver Plate
+item.plate_eutine.name=Eutine Plate
+item.plate_mithril.name=Mitril Plate
+item.plate_adamantite.name=Adamantite Plate
+item.plate_rune.name=Rune Plate
 
-item.rodSteel.name=Steel Rod
-item.rodMithril.name=Mithril Rod
-item.rodRune.name=Rune Rod
+item.plate_bronze.name=Bronze Plate
+item.plate_steel.name=Steel Plate
+item.plate_brass.name=Brass Plate
+item.plate_carbon.name=Carbon Plate
 
-item.copperSword.name=Copper Sword
-item.copperPickaxe.name=Copper Pickaxe
-item.copperAxe.name=Copper Axe
-item.copperSpade.name=Copper Shovel
+item.plate_iron.name=Iron Plate
+item.plate_gold.name=Gold Plate
+item.plate_diamond.name=Diamond Plate
 
-item.silverSword.name=Silver Sword
-item.silverPickaxe.name=Silver Pickaxe
-item.silverAxe.name=Silver Axe
-item.silverSpade.name=Silver Shovel
+item.plate_glass.name=Glass Plate
+item.plate_blackglass.name=Black Glass Plate
 
-item.eutineSword.name=Eutine Sword
-item.eutinePickaxe.name=Eutine Pickaxe
-item.eutineAxe.name=Eutine Axe
-item.eutineSpade.name=Eutine Shovel
+item.plate_reinforced.name=Reinforced Plate
+item.plate_witherreinforced.name=Wither Reinforced Plate
 
-item.mithrilSword.name=Mithril Sword
-item.mithrilPickaxe.name=Mithril Pickaxe
-item.mithrilAxe.name=Mithril Axe
-item.mithrilSpade.name=Mithril Shovel
+item.plate_ender.name=Ender Plate
+item.plate_basic.name=Basic Plate
 
-item.adamantiteSword.name=Adamantite Sword
-item.adamantitePickaxe.name=Adamantite Pickaxe
-item.adamantiteAxe.name=Adamantite Axe
-item.adamantiteSpade.name=Adamantite Shovel
-
-item.runeSword.name=Rune Sword
-item.runePickaxe.name=Rune Pickaxe
-item.runeAxe.name=Rune Axe
-item.runeSpade.name=Rune Shovel
-
-item.doorClearItem.name=Clear Door
-item.doorReinforcedItem.name=Reinforced Door
-
-item.copperHelmet.name=Copper Helmet
-item.copperChestPlate.name=Copper Chestplate
-item.copperLeggings.name=Copper Leggings
-item.copperBoots.name=Copper Boots
-
-item.god1Helmet.name=God Helmet Teir 1
-item.god1ChestPlate.name=God Chestplate Teir 1
-item.god1Leggings.name=God Leggings Teir 1
-item.god1Boots.name=God Boots Teir 1
-
-item.god2Helmet.name=God Helmet Teir 2
-item.god2ChestPlate.name=God Chestplate Teir 2
-item.god2Leggings.name=God Leggings Teir 2
-item.god2Boots.name=God Boots Teir 2
-
-item.god3Helmet.name=God Helmet Teir 3
-item.god3ChestPlate.name=God Chestplate Teir 3
-item.god3Leggings.name=God Leggings Teir 3
-item.god3Boots.name=God Boots Teir 3
+#Tools
+item.pickaxe_copper.name=Copper Pickaxe
+item.sword_copper.name=Copper Sword
+item.axe_copper.name=Copper Axe
+item.spade_copper.name=Copper Spade
 
 item.null.name=FIX ITEM
 
+#Ores
 tile.block_ore_copper.name=Copper Ore
 tile.block_ore_tin.name=Tin Ore
 tile.block_ore_silver.name=Silver Ore
@@ -175,7 +190,6 @@ tile.block_ore_mithril.name=Mithril Ore
 tile.block_ore_adamantite.name=Adamantite Ore
 tile.block_ore_rune.name=Rune Ore
 tile.block_ore_fractum.name=Fractum Ore
-
 tile.block_ore_silicon.name=Silicon Ore
 
 tile.block_ore_onyx.name=Onyx Ore
@@ -189,6 +203,7 @@ tile.block_ore_fireopal.name=Fire Opal Ore
 tile.block_ore_turquoise.name=Turquoise Ore
 tile.block_ore_blackdiamond.name=Black Diamond Ore
 
+#Ore_blocks
 tile.block_copper.name=Block of Copper
 tile.block_tin.name=Block of Tin
 tile.block_silver.name=Block of Silver
@@ -211,13 +226,92 @@ tile.block_fireopal.name=Block of Fire Opal
 tile.block_turquoise.name=Block of Turquoise
 tile.block_blackdiamond.name=Block of Black Diamond
 
-tile.block_godone.name=God Block Teir 1
-tile.block_godtwo.name=God Block Teir 2
-tile.block_godthree.name=God Block Teir 3
+tile.block_godone.name=Green God Block
+tile.block_godtwo.name=Yellow God Block
+tile.block_godthree.name=Orange God Block
 
 tile.block_steel.name=Block of Steel
 tile.block_bronze.name=Block of Bronze
 tile.block_brass.name=Block of Brass
+
+#Machines
+tile.block_powered_frame.name=Powered Frame
+tile.block_energized_frame.name=Energized Frame
+
+tile.block_powered_capacitor.name=Powered Capacitor
+tile.block_energized_capacitor.name=Energized Capacitor
+
+tile.block_fluidtank.name=Fluid Tank
+
+tile.block_mechanised_storage_small.name=Small Mechanised Storage
+tile.block_mechanised_storage_large.name=Large Mechanised Storage
+
+tile.block_powered_energypipe.name=Powered Energy Pipe
+tile.block_energized_energypipe.name=Energized Energy Pipe
+tile.block_itempipe_solid.name=Solid Item Pipe
+tile.block_itempipe_clear.name=Clear Item Pipe
+tile.block_fluidpipe_solid.name=Solid Fluid Pipe
+tile.block_fluidpipe_clear.name=Clear Fluid Pipe
+
+tile.block_powered_furnace.name=Powered Furnace
+tile.block_powered_grinder.name=Powered Grinder
+tile.block_powered_compressor.name=Powered Compressor
+tile.block_powered_extractor.name=Powered Extractor
+
+tile.block_energized_furnace.name=Energized Furnace
+tile.block_energized_grinder.name=Energized Grinder
+tile.block_energized_compressor.name=Energized Compressor
+tile.block_energized_extractor.name=Energized Extractor
+
+tile.block_powered_charger.name=Powered Charger
+tile.block_energized_charger.name=Energized Charger
+tile.block_powered_oreprocessor.name=Powered Ore Processor
+tile.block_energized_orerprocessor.name=Energized Ore Processor
+tile.block_powered_fluidcrafter.name=Powered Fluid Crafter
+tile.block_energized_fluidcrafter.name=Energized Fluid Crafter
+
+tile.block_powered_solarpanel.name=Powered Solar Panel
+
+#Combiner
+tile.block_combiner_center.name=Combiner
+tile.block_combiner_pedestal.name=Combiner Pedestal
+
+#Generators
+tile.block_powered_solidfuel_generator.name=Powered Solid Fuel Generator
+tile.block_energized_solidfuel_generator.name=Energized Solid Fuel Generator
+tile.block_powered_heatedfluid_generator.name=Powered Heated Fluid Generator
+tile.block_energized_heatedfluid_generator.name=Energized Heated Fluid Generator
+tile.block_powered_peltier_generator.name=Powered Peltier Generator
+tile.block_energized_peltier_generator.name=Energized Peltier Generator
+
+#Decoration
+tile.block_basaltcobblestone.name=Basalt Cobblestone
+tile.block_basalt.name=Basalt
+tile.block_basaltbrick.name=Basalt Bricks
+tile.block_basaltsmooth.name=Smooth Basaslt
+
+tile.block_marblecobblestone.name=Marble Cobblestone
+tile.block_marble.name=Marble
+tile.block_marblebrick.name=Marble Bricks
+tile.block_marblesmooth.name=Smooth Marble
+
+tile.block_glass_black.name=Black Glass
+
+tile.block_planks_beech.name=Beechwood Planks
+tile.block_planks_rubber.name=Rubberwood Planks
+
+tile.block_log_beech.name=Beechwood Log
+tile.block_log_rubber.name=Rubberwood Log
+
+tile.block_reinforcedstone.name=Reinforced Stone
+tile.block_reinforcedbrick.name=Reinforced Bricks
+tile.block_reinforcedglass.name=Reinforced Glass
+tile.block_reinforced_encased.name=Reinforced Encased Bricks
+
+tile.block_witherstone.name=Wither Stone
+tile.block_witherbrick.name=Wither Bricks
+tile.block_witherglass.name=Wither Glass
+tile.block_wither_encased.name=Wither Encased Bricks
 
 tile.null.name=FIX BLOCK
 

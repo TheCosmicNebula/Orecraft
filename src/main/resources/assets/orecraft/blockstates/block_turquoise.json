@@ -1,5 +1,13 @@
 {
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "orecraft:blocks/world/block/block_turquoise"
+        }
+    },
+    
     "variants": {
-        "normal": { "model": "orecraft:block_turquoise" }
+        "inventory": { "model": "zeherlib:modblock" },
+        "normal": { "model" : "zeherlib:modblock" }
     }
 }

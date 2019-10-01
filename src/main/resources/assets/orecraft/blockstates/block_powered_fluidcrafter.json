@@ -1,9 +1,9 @@
 {
     "variants": {
-        "facing=north": { "model": "orecraft:block_powered_fluidcrafter" },
-        "facing=south": { "model": "orecraft:block_powered_fluidcrafter", "y": 180 },
-        "facing=west":  { "model": "orecraft:block_powered_fluidcrafter", "y": 270 },
-        "facing=east":  { "model": "orecraft:block_powered_fluidcrafter", "y": 90 },
+        "facing=north": { "model": "orecraft:block_powered_fluidcrafter_model"},
+        "facing=south": { "model": "orecraft:block_powered_fluidcrafter_model"},
+        "facing=west":  { "model": "orecraft:block_powered_fluidcrafter_model"},
+        "facing=east":  { "model": "orecraft:block_powered_fluidcrafter_model"},
         "inventory": {
             "model": "orecraft:block_powered_fluidcrafter_inventory"
         }

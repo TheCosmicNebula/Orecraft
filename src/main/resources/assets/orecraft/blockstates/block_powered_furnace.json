@@ -1,11 +1,12 @@
 {
     "variants": {
-        "facing=north": { "model": "orecraft:block_powered_furnace" },
-        "facing=south": { "model": "orecraft:block_powered_furnace", "y": 180 },
-        "facing=west":  { "model": "orecraft:block_powered_furnace", "y": 270 },
-        "facing=east":  { "model": "orecraft:block_powered_furnace", "y": 90 },
+        "facing=north": { "model": "orecraft:block_powered_furnace_model" },
+        "facing=south": { "model": "orecraft:block_powered_furnace_model", "y": 180 },
+        "facing=west":  { "model": "orecraft:block_powered_furnace_model", "y": 270 },
+        "facing=east":  { "model": "orecraft:block_powered_furnace_model", "y": 90 },
+        
         "inventory": {
-            "model": "orecraft:block_powered_furnace"
+            "model": "orecraft:block_powered_furnace_model"
         }
     }
 }

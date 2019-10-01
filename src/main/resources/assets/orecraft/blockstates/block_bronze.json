@@ -1,5 +1,13 @@
 {
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "orecraft:blocks/world/block/block_bronze"
+        }
+    },
+    
     "variants": {
-        "normal": { "model": "orecraft:block_bronze" }
+        "inventory": { "model": "zeherlib:modblock" },
+        "normal": { "model" : "zeherlib:modblock" }
     }
 }

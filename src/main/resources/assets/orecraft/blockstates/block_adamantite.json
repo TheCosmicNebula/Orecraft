@@ -1,5 +1,13 @@
 {
-    "variants": {
-        "normal": { "model": "orecraft:block_adamantite" }
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "orecraft:blocks/world/block/block_adamantite"
         }
+    },
+    
+    "variants": {
+        "inventory": { "model": "zeherlib:modblock" },
+        "normal": { "model" : "zeherlib:modblock" }
+    }
 }

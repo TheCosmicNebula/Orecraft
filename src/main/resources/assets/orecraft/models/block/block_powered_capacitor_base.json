@@ -13,8 +13,8 @@
         }
     },
     "textures": {
-        "particle": "orecraft:blocks/storage/capacitor/powered/capacitor_two",
-        "two": "orecraft:blocks/storage/capacitor/powered/capacitor_two"
+        "particle": "orecraft:blocks/storage/capacitor/powered/capacitor_inner_cube",
+        "inner_cube": "orecraft:blocks/storage/capacitor/powered/capacitor_inner_cube"
     },
     "elements": [
         {
@@ -23,27 +23,27 @@
             "faces": {
                 "up": {
                     "uv": [2,2,14,14],
-                    "texture": "#two"
+                    "texture": "#inner_cube"
                 },
                 "down": {
                     "uv": [2,2,14,14],
-                    "texture": "#two"
+                    "texture": "#inner_cube"
                 },
                 "north": {
                     "uv": [2,2,14,14],
-                    "texture": "#two"
+                    "texture": "#inner_cube"
                 },
                 "south": {
                     "uv": [2,2,14,14],
-                    "texture": "#two"
+                    "texture": "#inner_cube"
                 },
                 "east": {
                     "uv": [2,2,14,14],
-                    "texture": "#two"
+                    "texture": "#inner_cube"
                 },
                 "west": {
                     "uv": [2,2,14,14],
-                    "texture": "#two"
+                    "texture": "#inner_cube"
                 }
             }
         }

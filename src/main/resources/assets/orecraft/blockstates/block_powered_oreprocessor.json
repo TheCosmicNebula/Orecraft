@@ -1,9 +1,9 @@
 {
     "variants": {
-        "facing=north": { "model": "orecraft:block_powered_oreprocessor" },
-        "facing=south": { "model": "orecraft:block_powered_oreprocessor", "y": 180 },
-        "facing=west":  { "model": "orecraft:block_powered_oreprocessor", "y": 270 },
-        "facing=east":  { "model": "orecraft:block_powered_oreprocessor", "y": 90 },
+        "facing=north": { "model": "orecraft:block_powered_oreprocessor_model" },
+        "facing=south": { "model": "orecraft:block_powered_oreprocessor_model"},
+        "facing=west":  { "model": "orecraft:block_powered_oreprocessor_model"},
+        "facing=east":  { "model": "orecraft:block_powered_oreprocessor_model"},
         "inventory": {
             "model": "orecraft:block_powered_oreprocessor_inventory"
         }

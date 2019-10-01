@@ -1,11 +1,11 @@
 {
     "variants": {
-        "facing=north": { "model": "orecraft:block_powered_charger" },
-        "facing=south": { "model": "orecraft:block_powered_charger", "y": 180 },
-        "facing=west":  { "model": "orecraft:block_powered_charger", "y": 270 },
-        "facing=east":  { "model": "orecraft:block_powered_charger", "y": 90 },
+        "facing=north": { "model": "orecraft:block_powered_charger_model" },
+        "facing=south": { "model": "orecraft:block_powered_charger_model"},
+        "facing=west":  { "model": "orecraft:block_powered_charger_model"},
+        "facing=east":  { "model": "orecraft:block_powered_charger_model"},
         "inventory": {
-            "model": "orecraft:block_powered_charger"
+            "model": "orecraft:block_powered_charger_inventory"
         }
     }
 }

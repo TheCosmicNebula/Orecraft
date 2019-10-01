@@ -1,8 +1,0 @@
-{
-    "parent": "block/orientable",
-    "textures": {
-        "top": "orecraft:blocks/production/generator/coal/coal_top",
-        "front": "orecraft:blocks/production/generator/coal/coal_front_on",
-        "side": "orecraft:blocks/production/generator/coal/coal_side"
-    }
-}

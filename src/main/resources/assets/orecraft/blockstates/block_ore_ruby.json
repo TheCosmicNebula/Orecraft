@@ -1,5 +1,13 @@
 {
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "orecraft:blocks/world/ore/block_ore_ruby"
+        }
+    },
+    
     "variants": {
-        "normal": { "model": "orecraft:block_ore_ruby" }
+        "inventory": { "model": "zeherlib:modblock" },
+        "normal": { "model" : "zeherlib:modblock" }
     }
 }

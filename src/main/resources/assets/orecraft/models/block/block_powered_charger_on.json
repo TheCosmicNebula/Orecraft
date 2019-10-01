@@ -1,8 +1,0 @@
-{
-    "parent": "block/orientable",
-    "textures": {
-        "top": "orecraft:blocks/machine/powered/charger/charger_top",
-        "front": "orecraft:blocks/machine/powered/charger/charger_front_on",
-        "side": "orecraft:blocks/machine/powered/charger/charger_side"
-    }
-}
