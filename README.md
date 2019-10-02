@@ -1,6 +1,6 @@
 OreCraft
 =============
-A mod adding ores, machines, tools and much more! Currently using Forge for Minecraft 1.11.2.
+A mod adding ores, machines, tools and much more! Currently using MinecraftForge for Minecraft 1.12.2.
 
 ## Licence
 This repo does not have a licence. This means that by default, it is All Rights Reserved. However, due to having complete control over what rights that includes, here is a list of what you can & cannot do.
@@ -20,4 +20,4 @@ This repo does not have a licence. This means that by default, it is All Rights 
 ## Mod Page
 [Curse-Forge](https://minecraft.curseforge.com/projects/orecraftii)
 
-2014-17 @ TheRealZeher | TRZ | All Rights Reserved.
+2012-19 @ TheRealZeher | TRZ | All Rights Reserved.
